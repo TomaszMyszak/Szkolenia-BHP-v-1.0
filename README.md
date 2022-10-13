@@ -32,7 +32,8 @@ Główne cechy:, Poniżej przedstawiono opis poszczególnych modułów:
 
 
 	1.	MDP - zadaniem realizowanym przez moduł będzie gromadzenie i aktualizowanie danych o obsługiwanych przedsiębiorstwach, ich oddziałach i podstawowych danych kontaktowych. Moduł będzie dostosowany do nowych zasad przechowywania i gromadzenia danych osobowych RODO. Implementację modułu w postaci diagramu przedstawiono na rysunku poniżej. Poniżej zamieszczono implementację w postaci wzoru okna aplikacji
-	2.	MDR - moduł gromadzenia danych o pracownikach danego obsługiwanego przedsiębiorstwa wraz z danymi kontaktowymi, moduł będzie dostosowany do nowych zasad przechowywania                        i gromadzenia danych osobowych RODO. Realizacja modułu przebiegać będzie przy pomocy dwóch okien,” dodaj Firmę” oraz ”dodaj Pracownika”. Aby dodać pracownika należy uprzednio zaktualizować bazę o nową firmę w sytuacji kiedy nie ma jeszcze w bazie. Poniżej implementacja                w postaci diagramu oraz projektów okien.
+	2.	MDR - moduł gromadzenia danych o pracownikach danego obsługiwanego przedsiębiorstwa wraz z danymi kontaktowymi, moduł będzie dostosowany do nowych zasad przechowywania i gromadzenia danych osobowych RODO. Realizacja modułu przebiegać będzie przy pomocy dwóch okien,” dodaj Firmę” oraz ”dodaj Pracownika”. Aby dodać pracownika należy uprzednio zaktualizować bazę o nową firmę w sytuacji kiedy nie ma jeszcze w bazie. Poniżej implementacja                w postaci diagramu oraz projektów okien.
+
 
 Założenia związane z oprogramowaniem realizowane będą przy użyciu:
 
@@ -41,23 +42,25 @@ Założenia związane z oprogramowaniem realizowane będą przy użyciu:
 (c)	Diagram Designer - w wersji open source - oprogramowanie do projektowanie diagramów
 (d)	DiagraIO - w wersji open source - oprogramowanie do projektowania diagramów UML
 (e)	oprogramowanie do testowania aplikacji NUnit oraz XUnit - w wersji open soruce. (f) Ubuntu Server 20.04 - Server bazy danych open source
-Wymagania sprzętowe do realizacji zdania wykonano dla najbardziej wymagającego programu do re- alizacj projektu tj. Program Visual Studio 2019 można instalować i uruchamiać w następujących sys- temach operacyjnych (zalecane są wersje 64-bitowe; architektura ARM nie jest obsługiwana):
+Wymagania sprzętowe do realizacji zdania wykonano dla najbardziej wymagającego programu do re- alizacj projektu tj. Program Visual Studio 2019 można instalować i uruchamiać w następujących sys- temach operacyjnych (zalecane są wersje 64-bitowe; architektura ARM nie jest obsługiwana)
+
 (a) Windows 10 w wersji 1703 lub nowszej: Home, Professional, Education i Enterprise (wersje LTSC i S nie są obsługiwane) Windows Server 2019: Standard i Datacenter Windows 8.1 (z aktualiza- cją 2919355): Core, Professional i Enterprise Windows Server 2012 R2 (z aktualizacją 2919355): Essentials, Standard, Datacenter Windows 7 z dodatkiem SP1 (z najnowszymi aktualizacjami): Home Premium, Professional, Enterprise, Ultimate
-Na potrzeby realizacji projektu posłużono się systemem operacyjnym Windows 10 zaktualizowanego do wersji Windows 11 - 21H1. Wymagania sprzętowe i programowe dla poprawnej pracy programu Szkolenia BHP:
-(a)	Procesor 1,8 GHz lub szybszy (zalecany czterordzeniowy lub lepszy). 2 GB pamięci RAM; zalecane 8 GB pamięci RAM (co najmniej 2,5 GB w przypadku uruchamiania na maszynie wirtualnej).
+Na potrzeby realizacji projektu posłużono się systemem operacyjnym Windows 10 zaktualizowanego do wersji Windows 11 - 21H1. Wymagania sprzętowe i programowe dla poprawnej pracy programu Szkolenia BHP
+
+a)Procesor 1,8 GHz lub szybszy (zalecany czterordzeniowy lub lepszy). 2 GB pamięci RAM; zalecane 8 GB pamięci RAM (co najmniej 2,5 GB w przypadku uruchamiania na maszynie wirtualnej).
  
-(b)	Miejsce na dysku twardym: minimalnie 800 MB, a maksymalnie 210 GB dostępnego miejsca     (w                  zależności od instalowanych funkcji); typowe instalacje wymagają 20–50 GB wolnego miejsca.
-(c)	Szybkość dysku twardego: aby zwiększyć wydajność, system Windows i program Visual Studio należy zainstalować na dysku półprzewodnikowym (SSD).
-(d)	Karta wideo obsługująca rozdzielczość ekranu co najmniej 720p (1280 x 720); program Visual Studio będzie działać najlepiej przy rozdzielczości WXGA (1366 x 768) lub wyższej.
+b)Miejsce na dysku twardym: minimalnie 800 MB, a maksymalnie 210 GB dostępnego miejsca     (w                  zależności od instalowanych funkcji); typowe instalacje wymagają 20–50 GB wolnego miejsca.
+c)Szybkość dysku twardego: aby zwiększyć wydajność, system Windows i program Visual Studio należy zainstalować na dysku półprzewodnikowym (SSD).
+d)Karta wideo obsługująca rozdzielczość ekranu co najmniej 720p (1280 x 720); program Visual Studio będzie działać najlepiej przy rozdzielczości WXGA (1366 x 768) lub wyższej.
 Minimalne Wymagania dla aplikacji ”Szkolenia BHP”:
 Sprzętowe i systemowe
 
-(a)	Komputer z procesorem kompatybilnym z Pentium III lub wyższym, 2 GHz 2 GB pamięci RAM w przypadku instalacji program + serwer SQL, 1GB w przypadku instalacji samego programu,
-(b)	Dysk: 5 GB wolnej przestrzeni na dysku systemowym (domyślnie C:)
-(c)	Napęd DVD (w przypadku instalacji z płyty)
-(d)	System operacyjny Windows 10; Windows 8.1; Windows 7 (łącznie z wersją Starter); Windows Server 2016, Windows Server 2019.
-(e)	Drukarka pracująca w systemie Microsoft Windows.
-(f)	Server bazy danych np. Ubuntu Server z implementacją Virtual Box 6.1
+a)Komputer z procesorem kompatybilnym z Pentium III lub wyższym, 2 GHz 2 GB pamięci RAM w przypadku instalacji program + serwer SQL, 1GB w przypadku instalacji samego programu,
+b)Dysk: 5 GB wolnej przestrzeni na dysku systemowym (domyślnie C:)
+c)Napęd DVD (w przypadku instalacji z płyty)
+d)System operacyjny Windows 10; Windows 8.1; Windows 7 (łącznie z wersją Starter); Windows Server 2016, Windows Server 2019.
+e)Drukarka pracująca w systemie Microsoft Windows.
+f)Server bazy danych np. Ubuntu Server z implementacją Virtual Box 6.1
 
 
 Programowe
@@ -88,4 +91,4 @@ Poniżej przedstawiono minimalne wymagania sprzętowe Minimalne Wymagania sprzę
 
 
 4. Kolejne wersje
-W przyszłości przewiduje się usprawnienie aplikacji do pracy jako cześć systemu zarządzania bezpie- czeństwem zakładu. Docelowo aplikacja zostanie usprawniona o możliwości ewidencji badań lekarskich, wydruków skierowań, ewidencji wypadków w pracy i w drodze do pracy.#� �S�z�k�o�l�e�n�i�a�-�B�H�P�-�v�-�1�.�0�
+W przyszłości przewiduje się usprawnienie aplikacji do pracy jako cześć systemu zarządzania bezpie- czeństwem zakładu. Docelowo aplikacja zostanie usprawniona o możliwości ewidencji badań lekarskich, wydruków skierowań, ewidencji wypadków w pracy i w drodze do pracy.
