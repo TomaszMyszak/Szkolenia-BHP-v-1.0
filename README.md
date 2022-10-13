@@ -1,4 +1,5 @@
 ﻿1	Cel projektu
+ 
 Celem projektu jest ułatwienie zarządzania szkoleniami BHP oraz ułatwienie drukowania zaświadczeń z odbytego szkolenia. Ogólną zasadą jest aby system był aplikacja desktopową, działającą w kanwie klient- serwer. System będzie zawierał moduły:
 
 	1.	MDP - moduł danych pracodawcy, oddziałów.
@@ -10,6 +11,7 @@ Celem projektu jest ułatwienie zarządzania szkoleniami BHP oraz ułatwienie dr
 System będzie gromadził dane przy pomocy bazy SQL przechowywanej na serwerze bazodanowym MS SQL Serwer 2019. Podstawowym założeniem jest ochrona danych osobowych więc system będzie dostosowany           do wymagań RODO oraz wymagań ochrony danych osobowych i tajemnic danego przedsiębiorstwa.                  W pierwszej wersji będzie w module MPR wdrożony uzgodniony format dyplomów i zaświadczeń, przewiduje się w ko- lejnych wersjach dodanie modułów ustawień systemowych oraz wzorów dyplomów. System będzie pracował pod platformą Microsft Windows 10 wzwyż. Poniżej zamieszczono diagram przypadków użycia wersji 1.0.
 
 2. Funkcjonalności
+
 Podstawową funkcjonalnością systemu ma być możliwość gromadzenia i zarządzania danymi z przeprowa- dzonych szkoleń pracowników oraz możliwość efektywnego i szybkiego drukowania zaświadczeń. Poszczególne funkcjonalności modułów
 
 	1.	MDP - zadaniem realizowanym przez moduł będzie gromadzenie i aktualizowanie danych o obsługiwanych przedsiębiorstwach, ich oddziałach i podstawowych danych kontaktowych. Moduł będzie dosto sowany do nowych zasad przechowywania i gromadzenia danych osobowych RODO.
@@ -19,6 +21,7 @@ Podstawową funkcjonalnością systemu ma być możliwość gromadzenia i zarzą
 	5.	MIB - moduł dostępnych prezentacji
 
 3. Założenia i uwarunkowania 
+
 W projekcie założono iż program będzie obsługiwał bazę sql na MS SQL Server 2019 (licencja Comunity). Program napisany ma być w języku C#. Kluczowe jest aby aplikacja pracowała w trybie klient-server (lokalnie i zdalnie) tj. baza ma być zaimplementowana na zdalnym serwerze Ubuntu Server 20.04 (licencja open source). Programem IDE do produkcji oprogramowania będzie Visual Studio 2019 (licencja community).
 
 	1.	baza firm,
@@ -56,11 +59,13 @@ Sprzętowe i systemowe
 (e)	Drukarka pracująca w systemie Microsoft Windows.
 (f)	Server bazy danych np. Ubuntu Server z implementacją Virtual Box 6.1
 
+
 Programowe
 
 (a)	Sieć Microsoft Windows - Ubuntu Server (możliwa praca jednostanowiskowa), Protokół sieciowy TCP/IP, Do instalacji programu konieczne są uprawnienia administratora systemu,
 (b)	Minimalna, dopuszczalna przez instalator rozdzielczość ekranu to 1024768,
 (c)	Wymagana minimalna 16 bitowa głębia kolorów (65 536 kolorów).
+
 
 Konfiguracja SQL
 
@@ -83,5 +88,4 @@ Poniżej przedstawiono minimalne wymagania sprzętowe Minimalne Wymagania sprzę
 
 
 4. Kolejne wersje
-W przyszłości przewiduje się usprawnienie aplikacji do pracy jako cześć systemu zarządzania bezpie- czeństwem zakładu. Docelowo aplikacja zostanie usprawniona o możliwości ewidencji badań lekarskich, wydruków skierowań, ewidencji wypadków w pracy i w drodze do pracy.#   S z k o l e n i a - B H P - v - 1 . 0  
- 
+W przyszłości przewiduje się usprawnienie aplikacji do pracy jako cześć systemu zarządzania bezpie- czeństwem zakładu. Docelowo aplikacja zostanie usprawniona o możliwości ewidencji badań lekarskich, wydruków skierowań, ewidencji wypadków w pracy i w drodze do pracy.#� �S�z�k�o�l�e�n�i�a�-�B�H�P�-�v�-�1�.�0�
